@@ -37,6 +37,10 @@ public class Circle extends GeometricObject{
     }
 
     public void printCircle(){
-
+        System.out.println("A circle " + super.toString());
+        System.out.println("The color is "+ getColor());
+        System.out.println("The radius is " + radius);
+        System.out.println("The area is " +getArea());
+        System.out.println("The diameter is "+ getDiameter());
     }
 }
