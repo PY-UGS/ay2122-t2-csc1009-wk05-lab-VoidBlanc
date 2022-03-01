@@ -36,14 +36,24 @@ public class Main {
         dim2 = sc.nextDouble();
         Square s = new Square(dim1, dim2);
         Shape figref;// this is OK, no object is created
+
+        System.out.println("Inside Area for Rectangle.");
         figref = r;
         System.out.println("Area is " + figref.area());
+
+        System.out.println("Inside Area for Triangle.");
         figref = t;
         System.out.println("Area is " + figref.area());
+
+        System.out.println("Inside Area for Circle.");
         figref = c;
         System.out.println("Area is " + figref.area());
+
+        System.out.println("Inside Area for Ellipse.");
         figref = e;
         System.out.println("Area is " + figref.area());
+
+        System.out.println("Inside Area for Square.");
         figref = s;
         System.out.println("Area is " + figref.area());
     }

@@ -10,7 +10,7 @@ public class TestCircleRectangle {
         double circleRadius = sc.nextDouble();
         System.out.print("Enter the Color for Circle : ");
         String circleColor = sc.next();
-        System.out.print("Choose an option : \n1. Filled \n2. Not Filled \nEnter the option number: ");
+        System.out.print("Is it filled? : \n1. True \n2. False \nEnter the option number: ");
         int circleFill  = sc.nextInt();
         boolean isFilled = circleFill == 1;
         System.out.println("===================== Entry for Rectangle ===================== ");
@@ -20,7 +20,7 @@ public class TestCircleRectangle {
         double rectHeight = sc.nextDouble();
         System.out.print("Enter the Color for Rectangle : ");
         String rectColor = sc.next();
-        System.out.print("Choose an option : \n1. Filled \n2. Not Filled \nEnter the option number: ");
+        System.out.print("Is it filled? : \n1. True \n2. False \nEnter the option number: ");
         int rectFill  = sc.nextInt();
         boolean rectFilled = rectFill == 1;
         System.out.println("");
